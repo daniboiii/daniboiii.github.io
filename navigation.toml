@@ -1,0 +1,6 @@
+paths = [
+	"home/_index.md",
+	"music/_index.md",
+	"tabs-and-stems/_index.md",
+	"about/_index.md"
+]

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block head %}
+
+<title>{{ page.title }} | daniboi </title>
+
+<meta name="title"
+content="{{ page.title }} - daniboi">
+
+{% endblock head %}
+
+{% block content %}
+
+{{ page.content | safe }}
+
+{% endblock content %}

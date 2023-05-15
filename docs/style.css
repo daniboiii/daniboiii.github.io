@@ -1,0 +1,32 @@
+:root {
+	background-color:#46444f;
+	color:#ededed;
+	font-family:sans-serif;
+	
+}
+a {
+	color:#ededed;
+}
+
+#splash-page {
+	background-image: url("/images/splashpagebackdrop.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#splash {
+	width: 312px;
+	height:256px;
+	background-image: url("/images/dani-logo-white.png");
+	background-size: contain;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#splash:hover, #splash:focus {
+	background-image: url("");
+}

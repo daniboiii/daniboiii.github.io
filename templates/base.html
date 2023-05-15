@@ -1,0 +1,11 @@
+{% extends "bare.html" %}
+{% block header %}
+	<nav id="pages">
+        {% set nav = load_data(path="navigation.toml") -%}
+        {% for path in nav.paths %}
+            {% set section = get_section(path=path) %}
+            {% set url = section.path %}
+            <a href="{{ url }}" {% if current_path == url %}class="here"{% endif %}>{{ section.title }}</a>
+        {% endfor %}
+    </nav>
+{% endblock header %}

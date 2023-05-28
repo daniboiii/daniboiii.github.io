@@ -2,5 +2,5 @@
 title = "home"
 +++
 
-<h1>Hello World</h1>
+### Hello World
 <p>I'm hosted with GitHub Pages. :33333333</p>

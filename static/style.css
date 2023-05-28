@@ -1,11 +1,12 @@
 :root {
-	background-color:#46444f;
-	color:#ededed;
-	font-family:sans-serif;
-	
+	background-color: #46444f;
+	color: #ededed;
+	font-family: sans-serif;
+	box-sizing: border-box;
 }
+
 a {
-	color:#ededed;
+	color :#ededed;
 }
 
 body {
@@ -14,25 +15,41 @@ body {
 
 #splash-page {
 	background-image: url("/images/splashpagebackdrop.png");
-	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-repeat: no-repeat;
+	background-position: center bottom;
 	height: 100vh;
 }
 
 #splash {
-	width: 624px;
-	height:512px;
+	width: 50vw;
+	max-width: 512px;
+	height: auto;
 	background-image: url("/images/dani-logo-white.png");
 	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 	position: absolute;
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
-	margin: auto;
+	margin-inline: auto;
+	margin-block: 2em;
+	filter: drop-shadow(4px 4px 4px #000);
 }
 
 #splash:hover, #splash:focus {
 	background-image: url("");
+}
+
+#pages {
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	display: flex;
+}
+
+#pages > a {
+	padding: 1em;
 }

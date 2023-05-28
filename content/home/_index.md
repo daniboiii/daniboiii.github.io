@@ -2,5 +2,7 @@
 title = "home"
 +++
 
-### Hello World
-<p>I'm hosted with GitHub Pages. :33333333</p>
+# Hi!
+
+my name is dani (she/it) and i make music on occasion :3
+

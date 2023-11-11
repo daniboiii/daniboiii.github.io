@@ -7,6 +7,9 @@
         <loc>https://daniboi.dog/about/</loc>
     </url>
     <url>
+        <loc>https://daniboi.dog/about/bark/</loc>
+    </url>
+    <url>
         <loc>https://daniboi.dog/home/</loc>
     </url>
     <url>
@@ -14,5 +17,8 @@
     </url>
     <url>
         <loc>https://daniboi.dog/tabs-and-stems/</loc>
+    </url>
+    <url>
+        <loc>https://daniboi.dog/tabs-and-stems/dust/</loc>
     </url>
 </urlset>

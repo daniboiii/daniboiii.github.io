@@ -14,7 +14,7 @@ body {
 }
 
 #splash-page {
-	background-image: url("/images/splashpagebackdrop.png");
+	background-color: black;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -40,7 +40,8 @@ body {
 }
 
 #splash:hover, #splash:focus {
-	background-image: url("");
+	max-width: 700px;
+	background-image: url("/images/heartanimated.gif");
 }
 
 #pages {

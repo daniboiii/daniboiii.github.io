@@ -1,0 +1,63 @@
+html {
+	background-color: #000000;
+	font-size: 20px;
+	line-height: 1.45;
+}
+
+body {
+  margin-inline: auto;
+  max-width: 140ch;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: #FFFFFF;
+    text-decoration: none;
+}
+
+h1 {
+	color: #FFFFFF;
+}
+p {
+	color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin-block: 0 1rem;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.play-on-hover {
+	width: 40vw;
+	height: 40vh;
+	margin-inline: auto;
+	background: no-repeat center/100% url("../images/frame_2_delay-0.2s.gif");
+	padding-top: 50em;
+}
+
+.play-on-hover:hover {
+	background-image: url("../images/heartanimated.gif");
+}
+
+ul {
+	list-style-type: none;
+}

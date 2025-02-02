@@ -51,7 +51,7 @@ p {
 	height: 40vh;
 	margin-inline: auto;
 	background: no-repeat center/100% url("../images/frame_2_delay-0.2s.gif");
-	padding-top: 50em;
+	padding-top: 50%;
 }
 
 .play-on-hover:hover {

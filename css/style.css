@@ -20,6 +20,12 @@ img {
 
 nav img {
 	vertical-align: middle;
+	margin-inline: auto;
+}
+
+nav a img {
+	vertical-align: middle;
+	margin-inline: auto;
 }
 
 a {

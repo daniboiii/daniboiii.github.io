@@ -1,7 +1,7 @@
 html {
 	background-color: #000000;
 	font-size: 20px;
-	line-height: 1.45;
+	line-height: 1.5;
 }
 
 body {
@@ -9,8 +9,17 @@ body {
   max-width: 140ch;
 }
 
+nav {
+	text-align: center;
+	text-color: #FFFFFF;
+}
+
 img {
 	max-width: 100%;
+}
+
+nav img {
+	vertical-align: middle;
 }
 
 a {
@@ -56,6 +65,11 @@ p {
 
 .play-on-hover:hover {
 	background-image: url("../images/heartanimated.gif");
+}
+
+.padded {
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 ul {

@@ -79,16 +79,15 @@ p {
 	padding-right: 2em;
 }
 
-.dropdown .submenu{
+.dropdown .submenu {
     display:none;
     list-style-type: none;
 }
 
-.dropdown:hover .submenu{
+.dropdown:hover .submenu {
     display: block;
     list-style-type: none;
 }
-
 
 ul {
 	list-style-type: none;

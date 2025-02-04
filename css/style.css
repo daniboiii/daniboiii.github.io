@@ -77,9 +77,12 @@ p {
 }
 
 .play-on-hover {
-	width: 40vw;
-	height: 40vh;
-	margin-inline: auto;
+	width: 50vw;
+	height: 50vh;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 	background: no-repeat center/100% url("../images/frame_2_delay-0.2s.gif");
 	padding-top: 50%;
 }

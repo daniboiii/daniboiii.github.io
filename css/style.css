@@ -9,6 +9,20 @@ body {
   max-width: 140ch;
 }
 
+article {
+	margin: 0;
+	padding: 5px;
+	outline: 1px solid white;
+}
+
+article h2 {
+	padding-left: 10px;
+}
+
+article p {
+	padding-left: 10px;
+}
+
 nav {
 	text-align: center;
 	text-color: #FFFFFF;

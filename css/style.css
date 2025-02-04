@@ -36,6 +36,7 @@ a {
 h1 {
 	color: #FFFFFF;
 }
+
 p {
 	color: #FFFFFF;
 }
@@ -77,6 +78,26 @@ p {
 	padding-left: 2em;
 	padding-right: 2em;
 }
+
+.dropdown .submenu{
+    display:none;
+    list-style-type: none;
+}
+
+.dropdown:hover .submenu{
+    display: block;
+    list-style-type: none;
+}
+
+#category_list .dropdown .submenu:hover{
+    display:block;
+}
+
+#category_list .dropdown .submenu .dropdown .submenu{
+    display:none;
+    padding:20px;
+}
+
 
 ul {
 	list-style-type: none;

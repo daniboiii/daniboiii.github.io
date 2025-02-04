@@ -89,15 +89,6 @@ p {
     list-style-type: none;
 }
 
-#category_list .dropdown .submenu:hover{
-    display:block;
-}
-
-#category_list .dropdown .submenu .dropdown .submenu{
-    display:none;
-    padding:20px;
-}
-
 
 ul {
 	list-style-type: none;

@@ -109,3 +109,9 @@ p {
 ul {
 	list-style-type: none;
 }
+
+@media (max-width: 768px) { /* or some other size you prefer */
+  div.row {
+	flex-direction: column;
+  }
+}

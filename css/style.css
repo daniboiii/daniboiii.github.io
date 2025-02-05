@@ -110,6 +110,24 @@ ul {
 	list-style-type: none;
 }
 
+footer p {
+	text-align: center;
+	font-size: 10px;
+}
+
+#badges {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#badges img {
+  height: 31px;
+  width: 88px;
+  vertical-align: middle;
+}
 @media (max-width: 768px) { /* or some other size you prefer */
   div.row {
 	flex-direction: column;
